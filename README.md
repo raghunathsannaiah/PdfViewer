@@ -9,7 +9,7 @@ First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polyme
 ## Viewing Your Element
 
 ```
-$ polymer serve
+$ polymer serve --port 8003
 ```
 
 ## Running Tests
@@ -18,4 +18,5 @@ $ polymer serve
 $ polymer test
 ```
 
+Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
 
